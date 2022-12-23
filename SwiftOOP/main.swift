@@ -8,10 +8,7 @@
 import Foundation
 
 
-let user = User()
+let user = User(name: "Bedirhan", age: 27, profession: "iOS Developer", type: .AdminUser)
 
-user.name = "Bedirhan"
-user.age = 27
-user.profession = "iOS Developer"
 
-print(user.profession)
+print(user.type)

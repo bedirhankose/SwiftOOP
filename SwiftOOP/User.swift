@@ -7,19 +7,34 @@
 
 import Foundation
 
+
+//Enumeration (It should be written outside of the class.)
+
+enum UserType {
+    case AdminUser
+    case NormalUser
+    case UnauthorizedUser
+}
+
 class User {
     
-    var name = ""
-    var age = 0
-    var profession = ""
+    var name : String
+    var age : Int
+    var profession : String
+    var type : UserType
     
     //initializer
     
-    init(name: String = "", age: Int = 0, profession: String = "") {
+    init(name: String , age: Int , profession: String , type : UserType) {
         self.name = name
         self.age = age
         self.profession = profession
+        self.type = type
         print("init has been called")
+    }
+    
+    func ExampleFunction(){
+        print("Example function has been called.")
     }
     
 }
