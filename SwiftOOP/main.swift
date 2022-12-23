@@ -12,3 +12,11 @@ let user = User(name: "Bedirhan", age: 27, profession: "iOS Developer", type: .A
 
 
 print(user.type)
+
+let sila = SpecialUser(name: "Sila", age: 27, profession: "Engineer", type: .NormalUser)
+
+print(sila.type)
+
+sila.ExampleFunction()
+
+sila.NewFunction()
