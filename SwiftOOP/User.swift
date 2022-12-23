@@ -22,7 +22,7 @@ class User {
     var age : Int
     var profession : String
     var type : UserType
-    
+    private var hairColor : String = "Black"
     //initializer
     
     init(name: String , age: Int , profession: String , type : UserType) {
@@ -36,5 +36,12 @@ class User {
     func ExampleFunction(){
         print("Example function has been called.")
     }
+    
+    //Access Levels
+    //Open, Public, Internal, Fileprivate, Private
+    func takeHairColor() -> String {
+        return self.hairColor
+    }
+    
     
 }

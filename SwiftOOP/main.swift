@@ -20,3 +20,5 @@ print(sila.type)
 sila.ExampleFunction()
 
 sila.NewFunction()
+
+print(sila.takeHairColor())
