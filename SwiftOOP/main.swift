@@ -7,5 +7,9 @@
 
 import Foundation
 
-print("Hello, World!")
 
+let user = User()
+
+user.name = "Bedirhan"
+user.age = 27
+user.profession = "iOS Developer"
