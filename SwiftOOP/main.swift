@@ -13,3 +13,5 @@ let user = User()
 user.name = "Bedirhan"
 user.age = 27
 user.profession = "iOS Developer"
+
+print(user.profession)
